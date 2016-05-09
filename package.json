@@ -1,0 +1,16 @@
+{
+  "name": "react-meetup",
+  "version": "1.0.0",
+  "description": "Dev setup (lint dependencies)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bitnami",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-plugin-react": "^5.0.1"
+  }
+}
