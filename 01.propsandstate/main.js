@@ -20,5 +20,18 @@ class MyApp extends React.Component {
   }
 }
 
+MyApp.defaultProps = {
+  initial: 0
+};
+
+/**
+ * propTypes are used in development mode.
+ * Props are validated against these rules, helping us in the development
+ * process. Also good for documenting the component public interface.
+ */
+MyApp.propTypes = {
+  initial: React.PropTypes.number,
+};
+
 // ReactDOM is a helper module for interacting with the browser DOM
 ReactDOM.render(<MyApp initial="5"/>, document.getElementById('app'));
